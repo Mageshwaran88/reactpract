@@ -1,0 +1,64 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100px;
+}
+li {
+  display: inline-block;
+  padding: 15px;
+  list-style: none;
+  font-size: 1.2em;
+}
+li:hover {
+  color: #10b981;
+}
+.myhead {
+  color: #10b981;
+  font-size: 2.6em;
+}
+.inputcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+.subinput {
+  background-color: white;
+  box-shadow: 1px 1px 5px grey;
+  padding: 30px 50px;
+}
+input {
+  width: 425px;
+  line-height: 22px;
+  border: 1px solid rgb(212, 206, 206);
+  border-radius: 3px;
+}
+.searchbutton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #10b981;
+}
+img{
+    width: 300px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+.drinkcontainer{
+  margin: 10px 0px;
+  background-color: white;
+  box-shadow: 1px 1px 5px grey;
+}
+
+

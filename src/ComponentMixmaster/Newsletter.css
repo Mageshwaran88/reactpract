@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.myform{
+    padding: 20px 30px;
+    width: 500px;
+    box-shadow: 1px 1px 5px gray;
+}
+.inputhead{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+.newsname{
+    color: gray;
+    line-height: 30px;
+}
+.newsinput{
+    width: 100%;
+}
+.submitbtn{
+    color: white;
+    background-color: #10b981;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    padding: 6px 0px;
+}

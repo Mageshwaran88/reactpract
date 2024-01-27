@@ -15,6 +15,7 @@ li {
   padding: 15px;
   list-style: none;
   font-size: 1.2em;
+  cursor: pointer;
 }
 li:hover {
   color: #10b981;
@@ -30,6 +31,9 @@ li:hover {
   height: 350px;
 }
 .subinput {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: white;
   box-shadow: 1px 1px 5px grey;
   padding: 30px 50px;
@@ -39,6 +43,8 @@ input {
   line-height: 22px;
   border: 1px solid rgb(212, 206, 206);
   border-radius: 3px;
+  margin: 5px 0px;
+  padding: 3px 0px;
 }
 .searchbutton {
   padding: 5px 10px;
@@ -46,19 +52,44 @@ input {
   border-radius: 3px;
   color: white;
   background-color: #10b981;
+  cursor: pointer;
 }
 img{
     width: 300px;
 }
 .container{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .drinkcontainer{
-  margin: 10px 0px;
+  margin: 20px 10px;
   background-color: white;
   box-shadow: 1px 1px 5px grey;
+}
+h1{
+  font-size: 26px;
+  margin: 15px 15px 5px 15px;
+  font-weight: 900;
+}
+h2{
+  font-size: 22px;
+  margin: 8px 15px;
+  font-weight: 300;
+}
+p{
+  color: gray;
+  font-size: 18px;
+  margin: 8px 15px;
+ font-weight: 700;
+}
+.detailbtn{
+  padding: 8px 16px;
+  margin: 5px 15px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #10b981;
 }
 
 
